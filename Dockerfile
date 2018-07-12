@@ -1,4 +1,4 @@
-FROM cargo.caicloudprivatetest.com/library/oracle-jdk-alpine:1.8
+FROM cargo.caicloudprivatetest.com/library/java:8
 
 COPY democi.jar  /usr/src/myapp/
 
