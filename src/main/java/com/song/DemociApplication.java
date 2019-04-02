@@ -15,6 +15,6 @@ public class DemociApplication {
 	
 	@GetMapping("/")
 	public String index() {
-		return "<h1>Hello, 麦子   -- Caicloud</h1>";
+		return "<h1>Hello, 麦子!   -- Caicloud</h1>";
 	}
 }
